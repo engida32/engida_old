@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'www.engida32lishan@gmail.com';
+$siteOwnersEmail = 'engida32lishan@gmail.com';
 
 
 if($_POST) {
@@ -29,7 +29,7 @@ if($_POST) {
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
+   $message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
